@@ -2,8 +2,8 @@ package com.educandoweb.couse.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.educandoweb.couse.entities.Usuario;
+import com.educandoweb.couse.entities.User;
 
-public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
+public interface UsuarioRepository extends JpaRepository<User, Long>{
 
 }
